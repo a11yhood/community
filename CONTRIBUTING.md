@@ -48,6 +48,7 @@ If you're new to open source, this is a great place to start. We'll do our best 
 | **Design** | UI/UX improvements, accessibility reviews of the interface |
 | **Accessibility feedback** | Sharing lived experience to help us ask better questions or surface better information |
 | **Issue triage** | Helping label, clarify, and prioritize open issues |
+| **Meta data Entry** | Help to label, tag, and add accessibility products | 
 
 Not sure where to start? Look for issues tagged `good first issue` in the issue tracker.
 
