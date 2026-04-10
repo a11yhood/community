@@ -9,7 +9,6 @@ This guide covers everything you need to know to contribute effectively.
 
 - [Who Can Contribute](#who-can-contribute)
 - [Types of Contributions](#types-of-contributions)
-- [Ground Rules](#ground-rules)
 - [Community Engagement](#community-engagement)
 - [Contribution Workflow](#contribution-workflow)
   - [Fork and Clone](#fork-and-clone)
@@ -54,26 +53,6 @@ Not sure where to start? Look for issues tagged `good first issue` in the issue 
 
 ---
 
-## Community Norms
-
-The a11yhood community prioritizes accessibility and inclusion. Contributors, and contributions, should uphold those values. 
-
-- **Be respectful.** Critique ideas, not people. Assume good intent and ask questions before drawing conclusions.
-- **Center the mission.** A11yhood exists to connect accessibility resources to people. When making decisions about features, language, or design, consider how choices affect the people this platform is built for.
-- **Use inclusive language.** Prefer person-first and identity-first language as appropriate. Avoid ableist, racist, or otherwise exclusionary language in code, comments, documentation, and discussions.
-- **Respect lived experience.** Contributions from people with disabilities and other marginalized identities are especially valuable. Make space for those perspectives.
-- **Keep things accessible.** Accessibility is a core value of this project, not an afterthought. When contributing UI changes:
-  - Use semantic HTML. Prefer native HTML elements (`<button>`, `<nav>`, `<main>`, `<section>`, `<header>`) over generic `<div>` or `<span>` elements where meaning matters.
-  - When using MUI components, use the `component` prop to preserve semantic HTML (e.g. `<Container component="section">`).
-  - Ensure interactive elements are keyboard accessible and have visible focus states.
-  - Do not rely on color alone to convey meaning.
-  - Use ARIA attributes only when native HTML semantics are insufficient — prefer correct HTML over ARIA patches.
-  - Test with a screen reader if you are making significant UI changes.
-- **No spam or self-promotion.** Issues and pull requests should be relevant to the project.
-
-Contributors who do not follow these ground rules may be asked to revise their contributions or removed from the project.
-
----
 ## Community Engagement
 
 The primary space for A11yhood discussions is **GitHub Issues**. This keeps conversations transparent, searchable, and tied directly to the work.
@@ -179,6 +158,13 @@ NEXT_PUBLIC_SHOW_SEARCH_PAGE was documented in DEVELOPMENT.md
 but belongs in SETUP.md alongside the other env vars.
 Moved and added inline comment explaining the flag's purpose."
 ```
+### Testing
+
+- **Testing:** 
+  - All UI changes must be tested with [Axe DevTools](https://www.deque.com/axe/devtools/). You can test this by running ```npm run test:a11y```
+  - We also run a lint check (```npm run lint```)
+- **CI/CD:** 
+  - PRs will automatically test the same, and fail if these tests do not pass
 
 ### Pull Requests
 
