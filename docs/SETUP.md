@@ -9,10 +9,7 @@ If you're setting up for the first time or on a new machine, follow this guide i
 ## Table of Contents
 
 - [Repositories](#repositories)
-- [Quick Start — Full Stack](#quick-start--full-stack)
-- [Frontend Setup](#frontend-setup)
-- [Backend Setup](#backend-setup)
-- [Database Setup (Supabase)](#database-setup-supabase)
+- [Quick Start — Front End](#quick-start--front-end)
 
 ---
 
@@ -25,10 +22,11 @@ A11yhood is split across three repositories:
 | Frontend | React 19 with TypeScript | [a11yhood/a11yhood.github.io](https://github.com/a11yhood/a11yhood.github.io) |
 | Backend | Python with FastAPI and Postgres | [a11yhood/a11yhood-backend](https://github.com/a11yhood/a11yhood-backend) |
 | Community | Markdown | [a11yhood/community](https://github.com/a11yhood/community) |
+| branding | images | [a11yhood/branding](https://github.com/a11yhood/branding)
 
 ---
 
-## Quick Start — Full Stack
+## Quick Start - Front end
 
 If you want to run the full stack locally, here's the short version. See the individual sections below for details on each step.
 
