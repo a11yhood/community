@@ -1,0 +1,128 @@
+name: Documentation bug
+about: Report incorrect, missing, outdated, or unclear documentation.
+title: "docs: "
+labels:
+  - bug
+  - documentation
+description: Use this form to report a documentation problem.
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve A11yhood documentation!
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear, one-sentence description of the documentation issue.
+      placeholder: The setup guide references an old command that no longer works.
+    validations:
+      required: true
+
+  - type: input
+    id: page_file
+    attributes:
+      label: Page or file
+      description: Path or page name where the issue appears.
+      placeholder: docs/SETUP.md
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section heading
+      description: Heading where the issue appears (if applicable).
+      placeholder: Environment variables
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: URL to the page (if applicable).
+      placeholder: https://github.com/a11yhood/documentation/blob/main/docs/SETUP.md
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What is wrong?
+      description: Describe what is incorrect, missing, outdated, or unclear.
+      placeholder: The docs say to run `make dev`, but the current command is `make up`.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it say instead?
+      description: Provide corrected wording or expected content.
+      placeholder: Replace `make dev` with `make up`.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to find the issue
+      description: How maintainers can quickly find the problematic text.
+      placeholder: |
+        1. Open docs/SETUP.md
+        2. Go to the "Run the app" section
+        3. See outdated command in the first code block
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix (optional)
+      description: If you have a concrete proposal, share it here.
+      placeholder: Update the code block and add a short note about required Docker version.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Add screenshots or copied error output if useful.
+      placeholder: Drag and drop images here.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser (if relevant)
+      options:
+        - Not applicable
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS (if relevant)
+      placeholder: Windows 11, macOS 14, Ubuntu 24.04
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Anything else maintainers should know.
+    validations:
+      required: false
