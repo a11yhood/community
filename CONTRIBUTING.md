@@ -291,7 +291,11 @@ When contributing to documentation or any user-facing text in the project, pleas
 
 ## Releases
 
-We are still defining this aspect of the project:
+Production releases are tag-driven. We use semantic versioning with a v prefix for tags:
 
+vMAJOR.MINOR.PATCH
+Patch: bug fixes and small internal improvements
+Minor: backward-compatible features or substantial enhancements
+Major: breaking changes or compatibility resets
 
-TODO: A formal release process and versioning conventions will be documented here.
+See [frontend DEPLOY.md](https://github.com/a11yhood/a11yhood.github.io/blob/main/DEPLOY.md#releasing-to-production) for more details. ]
