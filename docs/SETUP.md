@@ -20,7 +20,7 @@ A11yhood is split across three repositories:
 | Repository | Stack | Link |
 |-----------|-------|------|
 | Frontend | React 19 with TypeScript | [a11yhood/a11yhood.github.io](https://github.com/a11yhood/a11yhood.github.io) |
-| Backend | Python with FastAPI and Postgres | [a11yhood/a11yhood-backend](https://github.com/a11yhood/a11yhood-backend) |
+| Backend | Python with FastAPI and Postgres | [a11yhood/backend](https://github.com/a11yhood/backend) |
 | Community | Markdown | [a11yhood/community](https://github.com/a11yhood/community) |
 | branding | images | [a11yhood/branding](https://github.com/a11yhood/branding)
 
@@ -33,8 +33,8 @@ If you want to run the full stack locally, here's the short version. See the ind
 ```bash
 # Clone both repos
 git clone https://github.com/a11yhood/a11yhood.github.io.git
-git clone https://github.com/a11yhood/a11yhood-backend.git
+git clone https://github.com/a11yhood/backend.git
 
 # Follow the instructions in the readmes for both repos
 - [Frontend Installation README.md](https://github.com/a11yhood/a11yhood.github.io/blob/main/README.md#installation)
-- [Backend Installation README.md](https://github.com/a11yhood/a11yhood-backend/blob/main/README.md#installation)
+- [Backend Installation README.md](https://github.com/a11yhood/backend/blob/main/README.md#installation)

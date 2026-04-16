@@ -207,7 +207,7 @@ If you find a bug, please open a GitHub Issue in the appropriate repository befo
 
 | Issue type | Repo to open the issue in |
 |------------|--------------------------|
-| Backend / API bug | [a11yhood/a11yhood-backend](https://github.com/a11yhood/a11yhood-backend/issues) |
+| Backend / API bug | [a11yhood/backend](https://github.com/a11yhood/backend/issues) |
 | Frontend bug | [a11yhood/a11yhood.github.io](https://github.com/a11yhood/a11yhood.github.io/issues) |
 | Accessibility bug | [a11yhood/frontend](https://github.com/a11yhood/a11yhood.github.io/issues) |
 | Documentation bug | [a11yhood/community](https://github.com/a11yhood/community/issues) |
@@ -230,7 +230,7 @@ Have an idea for A11yhood? Open a GitHub Issue in the appropriate repository to 
 
 | Feature type | Repo to open the issue in |
 |-------------|--------------------------|
-| Backend / API feature | [a11yhood/a11yhood-backend](https://github.com/a11yhood/a11yhood-backend/issues) |
+| Backend / API feature | [a11yhood/a11yhood-backend](https://github.com/a11yhood/backend/issues) |
 | Frontend feature | [a11yhood/a11yhood.github.io](https://github.com/a11yhood/a11yhood.github.io/issues) |
 | Accessibility improvement | [a11yhood/a11yhood.github.io](https://github.com/a11yhood/a11yhood.github.io/issues) |
 | Documentation improvement | [a11yhood/community](https://github.com/a11yhood/community/issues) |
